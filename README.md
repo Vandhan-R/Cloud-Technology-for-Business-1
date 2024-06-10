@@ -34,4 +34,12 @@ Size of the Business: Medium-sized enterprise with approximately 26 employees.
 
 2 -  Cloud Solutions Architect 
 
+## Current IT Challenges: 
 
+On-premises server: On-premises servers were frequently provisioned with excess capacity to accommodate peak traffic, resulting in unnecessary expenses during periods of low activity.  
+
+ 
+Technical Debt: The current IT infrastructure has gathered a substantial amount of technical debt, which is affecting both efficiency and scalability.  
+
+ 
+Scalability Issues: Challenges with scalability arise when it is hard to rapidly increase resources to address spikes in demand during significant events or releases.
