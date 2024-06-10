@@ -6,7 +6,7 @@ BookShow is a leading entertainment company in India, which provides an online t
  
 Industry: Online Ticketing and Entertainment. 
 
-## Size of the Business: Medium-sized enterprise with approximately 26 employees. 
+Size of the Business: Medium-sized enterprise with approximately 26 employees. 
  
 1 -  IT Manager	 
 
