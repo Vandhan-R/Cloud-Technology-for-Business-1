@@ -78,4 +78,4 @@ To guarantee the best server and network performance, BookShow employs both huma
 4.3 Maintenance
 
 BookShow prioritizes regular updates and patching of software and firmware to maintain security and optimize performance. Additionally, they conduct routine hardware maintenance, including checks and replacements for aging components, ensuring that their infrastructure remains reliable and efficient. These practices contribute to the overall stability and security of BookShow's IT environment.
-![image](https://github.com/Ashokrawal/Cloud-Technology-for-Business/assets/133743618/ff57e8d6-f51f-4e22-98f6-83ec22506057)
+
