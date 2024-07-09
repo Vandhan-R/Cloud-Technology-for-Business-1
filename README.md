@@ -108,61 +108,32 @@ Server outages or poor performance may go unnoticed for extended periods of time
 
 6. Impact on Business and Revenue Loss
 
-Setting up and maintaining backup and recovery solutions pose challenges for BookShow in terms of complexity and cost. Ensuring data redundancy and availability is crucial but requires
-significant effort and investment to achieve effectively. These tasks are essential for safeguarding data integrity and ensuring uninterrupted service delivery for BookShow's operations.
-Revenue from ticket sales decreases when there are problems with downtime and performance,
- particularly during busy times. The company deals with higher expenses because of large
- capital and operational costs, which affects its financial situation and profit. Customers lose
- trust and loyalty when there is regular downtime and an unsatisfactory user experience on the
- platform. The company's ineffective IT infrastructure puts it at a disadvantage compared to its
- competitors.
- To address these challenges and enhance operational efficiency, we will adopt a strategic
- approach using cloud services, specifically AWS (Amazon Web Services) technology. This
- initiative aims to effectively resolve our existing issues and drive significant improvements.
- Let's take a brief look at what is cloud computing and its benefits, including AWS, and discuss
- the specific AWS services we intend to implement in this project.
- 
-7. Cloud Computing
-  Cloud computing involves providing computing services such as servers, storage, databases,
- networking, software, analytics, and intelligence via the Internet ("the cloud") in order to allow
- for quicker innovation, adaptable resources, and cost-effectiveness. You usually only pay for
+Revenue from ticket sales decreases when there are problems with downtime and performance, particularly during busy times. The company deals with higher expenses because of large capital and operational costs, which affects its financial situation and profit. Customers lose trust and loyalty when there is regular downtime and an unsatisfactory user experience on the platform. The company's ineffective IT infrastructure puts it at a disadvantage compared to its competitors.
 
- the cloud services that you utilize, which can reduce your operational expenses, enhance the
- efficiency of your infrastructure, and adapt as your business requirements evolve
-Azure, n.d.).
+To address these challenges and enhance operational efficiency, we will adopt a strategic approach using cloud services, specifically AWS (Amazon Web Services) technology. This initiative aims to effectively resolve our existing issues and drive significant improvements.
+Let's take a brief look at what is cloud computing and its benefits, including AWS, and discuss the specific AWS services we intend to implement in this project
+
+7. Cloud Computing
+  Cloud computing involves providing computing services such as servers, storage, databases, networking, software, analytics, and intelligence via the Internet ("the cloud") in order to allow for quicker innovation, adaptable resources, and cost-effectiveness. You usually only pay for the cloud services that you utilize, which can reduce your operational expenses, enhance the efficiency of your infrastructure, and adapt as your business requirements evolve (Microsoft Azure, n.d.).
 
 7.1 Benefits of Cloud Computing
-Amazon Web Services (AWS) offers IT infrastructure services to businesses as web services now commonly known as cloud computing. Amazon Web Services provides a wide range of cloud-based products worldwide. These include various services such as computing, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. Users can access these services on demand, in seconds, and with pay- as-you-go pricing. AWS offers over 200 services, covering areas such as data warehousing, deployment tools, directories, and content delivery. Presently, AWS supports a dependable, scalable, and cost-effective cloud infrastructure platform that serves numerous businesses across 190 countries (Amazon Web Services, n.d.).
+1. Cost Efficiency: Cuts expenses on hardware, software, and data centers; reduces power and cooling costs; minimizes IT management requirements.
+2. Speed: Facilitates fast, on-demand resource allocation; enhances business agility and capacity planning.
+3. Worldwide Reach: Allows for flexible scaling of resources from ideal geographic locations as required.
+4. Efficiency: Reduces time spent on hardware setup and maintenance, enabling IT teams to focus on primary business objectives.
+5. Performance: Functions on a secure global network of updated data centers, minimizing latency and benefiting from economies of scale.
+6. Dependability: Simplifies data backup, disaster recovery, and business continuity through multiple redundant sites.
+7. Safety: Reinforces overall security posture with comprehensive policies, technologies, and controls (Microsoft Azure, n.d.).
 
 7.2.1 What is AWS EC2?
 
-type (Amazon Web Services, n.d.).
-(Microsoft
-  1. Cost Efficiency: Cuts expenses on hardware, software, and data centers; reduces power
- and cooling costs; minimizes IT management requirements.
- 2. Speed: Facilitates fast, on-demand resource allocation; enhances business agility and
- capacity planning.
- 3. Worldwide Reach: Allows for flexible scaling of resources from ideal geographic
- locations as required.
- 4. Efficiency: Reduces time spent on hardware setup and maintenance, enabling IT teams to
- focus on primary business objectives.
- 5. Performance: Functions on a secure global network of updated data centers, minimizing
- latency and benefiting from economies of scale.
- 6. Dependability: Simplifies data backup, disaster recovery, and business continuity through
- multiple redundant sites.
- 7. Safety: Reinforces overall security posture with comprehensive policies, technologies, and
- controls
-(Microsoft Azure, n.d.).
+Amazon Web Services (AWS) offers IT infrastructure services to businesses as web services now commonly known as cloud computing. Amazon Web Services provides a wide range of cloud-based products worldwide. These include various services such as computing, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. Users can access these services on demand, in seconds, and with pay-as-you-go pricing. AWS offers over 200 services, covering areas such as data warehousing, deployment tools, directories, and content delivery. Presently, AWS supports a dependable, scalable, and cost-effective cloud infrastructure platform that serves numerous businesses across 190 countries (Amazon Web Services, n.d.).
 
 7.2 Amazon Web Services:
 
- Amazon Elastic Compute Cloud (Amazon EC2) is a service provided by Amazon Web
- Services (AWS) that offers flexible and scalable computing capacity. It helps in minimizing
- hardware expenses and enables quick development and deployment of applications. Amazon
- EC2 allows users to launch and manage virtual servers according to their requirements, and
- adjust capacity to handle varying workloads. Moreover, an EC2 instance refers to a virtual
- server in the AWS Cloud, with specific hardware configurations based on the chosen instance
+ Amazon Elastic Compute Cloud (Amazon EC2) is a service provided by Amazon Web Services (AWS) that offers flexible and scalable computing capacity. It helps in minimizing hardware expenses and enables quick development and deployment of applications. Amazon EC2 allows users to launch and manage virtual servers according to their requirements, and adjust capacity to handle varying workloads. Moreover, an EC2 instance refers to a virtual server in the AWS Cloud, with specific hardware configurations based on the chosen instance type (Amazon Web Services, n.d.).
 
+ ![image](https://github.com/Ashokrawal/Cloud-Technology-for-Business/assets/169262551/461f4799-1ef7-4cb0-a298-3f25a33c6994)
  Fig 1: AWS EC2
  
  7.2.2 What is AWS CloudWatch?
@@ -171,8 +142,9 @@ Amazon CloudWatch provides real-time monitoring for your Amazon Web Services (AW
 
 8. Recommended Solutions 8.1 Aspect 1: Web Hosting
 
-To address server downtime and scalability issues, our recommendation is to use AWS EC2. Integrating AWS EC2 will enable BookShow to flexibly adjust its computing resources according to fluctuating demand, particularly during peak ticketing periods for popular events. This means that the platform can instantly increase server capacity to handle high user traffic without manual input, ensuring website responsiveness and preventing slowdowns or crashes. Conversely, during low-demand periods, EC2 can reduce resources to optimize cost efficiency by utilizing only the required capacity. Let's compare AWS EC2 with on-premises servers.
- Fig 2: AWS CloudWatch
+Amazon CloudWatch provides real-time monitoring for your Amazon Web Services (AWS) resources and applications. You can track and collect metrics, which are measurable variables, and create custom dashboards to display them. Additionally, you can set up alarms and receive notifications or automate actions when certain thresholds are reached. This helps you gain insight into resource utilization, application performance, and operational health (Amazon Web Services, n.d.).  
+         ![image](https://github.com/Ashokrawal/Cloud-Technology-for-Business/assets/169262551/0e271edb-2cca-4717-a9e1-2dc7fb1b9d85)
+                                        Fig 2: AWS CloudWatch
    
   Comparative Analysis
   Features
